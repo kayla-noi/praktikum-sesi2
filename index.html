@@ -27,6 +27,13 @@
             background-color: black;
         }
 
+        div p {
+            color: red;
+        }
+        
+        div > div > p{
+            font-weight: bold;
+        }
 
     </style>
 </head>
@@ -40,6 +47,13 @@
     <p class="teks-merah">Praktik Pemrograman Web 1 sesi 2 akan membahas tentang pengguna CSS.</p>
     <p id="teks-kuning">CSS atau Cascading Style Sheets adalah sebuah bahasa yang digunakan untuk 
         mengatur tampilan halaman suatu web.</p>
+
+    <div>
+        <p>Ini adalah paragraf pertama.</p>
+        <div>
+            <p>ini adalah paragraf kedua</p>
+        </div>
+    </div>
 
     
 </body>
